@@ -1,5 +1,5 @@
 # main text of home
-name: John Doe
+name: Rachit Kumar Agrawal
 bio: A Man who travels the world eating noodles
 
 # twitter summary info
@@ -55,8 +55,8 @@ email: myemail@gmail.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Rachit Kumar Agrawal
+        bio: Deep Learning Researcher
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
