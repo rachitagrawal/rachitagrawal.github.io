@@ -3,14 +3,25 @@ layout: page
 title: Projects
 ---
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+    <table class="wsite-multicol-table">
+	    <tbody class="wsite-multicol-tbody">
+		    <tr class="wsite-multicol-tr">
+			    <td class="wsite-multicol-col" style="width:38.631578947368%; padding:0 15px;">
+				    <div class="wsite-spacer" style="height:80px;"></div>
+
+				    <div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:20px;margin-right:0px;text-align:center">
+						    <a href='/uploads/5/8/5/4/58540971/niramai-logo_orig.png' rel='lightbox' onclick='if (!lightboxLoaded) return false'>
+							    <img src="/uploads/5/8/5/4/58540971/published/niramai-logo.png?1526798565" alt="Picture" style="width:219;max-width:100%" />
+						    </a>
+						    <div style="display:block;font-size:90%"></div>
+					    </div></div>
+			    </td><td class="wsite-multicol-col" style="width:61.368421052632%; padding:0 15px;">
+				    <div class="wsite-spacer" style="height:19px;"></div>
+				    <div class="paragraph" style="text-align:left;"><strong><font color="#2a2a2a" size="5">Exploring Deep Learning Networks for Tumour Segmentation in Infrared Images</font></strong></div>
+				    <h2 class="wsite-content-title" style="text-align:left;"><font color="#626262" size="4"><em>Research Intern - Deep Learning, <a href="https://niramai.com" target="_blank">Niramai</a>&nbsp;(Among the 4 Indian start-ups selected For Google's "Launchpad Accelerator"), Dec '17&nbsp;</em></font></h2>
+				    <div class="paragraph"><span style="color:rgb(42, 42, 42)">Niramai is a health-tech startup that has developed a novel breast cancer screening solution using thermographic images. Given an image, their present algorithm detects the hot spots using a thresholding technique, from which high-level features are further extracted. My work was to explore Deep Learning for the hot spot detection task which is one of semantic segmentation, using very few images. Different classes of models were tried and the best performing model was the <a href="https://arxiv.org/abs/1606.04797" target="_blank">V-net</a>&nbsp;with a training dice-coefficient of 0.82, corresponding to a validation dice-coefficient of 0.71. Paper accepted in the Quantitative InfraRed Thermography Conference, 2018 and implementation can be found <a href="https://github.com/dalmia/Architectures-for-Semantic-Segmentation-using-Deep-Learning" target="_blank">here</a>.</span></div>
+			    </td>
+		    </tr>
+	    </tbody>
+    </table>
 </section>
