@@ -54,18 +54,11 @@ medium: rachit.k.agrawal
 email: rachit.k.agrawal@gmail.com
 
 authors:
-    johndoe:
+    rachitagrawal:
         name: Rachit Kumar Agrawal
         bio: Deep Learning Researcher
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -81,6 +74,12 @@ about: true
 
 # Experience
 experience: true
+
+# Achievements
+achievements: true
+
+# Certifications
+certifications: true
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
